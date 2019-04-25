@@ -103,6 +103,9 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+# Evolution X wallpapers
+PRODUCT_PACKAGES += EvoXPapers
+
 # Optional packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker
